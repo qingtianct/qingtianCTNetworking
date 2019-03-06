@@ -1,0 +1,6 @@
+use_frameworks!
+target 'qingtianCTNetworking_Tests' do
+  pod 'qingtianCTNetworking', :path => '../'
+  
+  
+end
