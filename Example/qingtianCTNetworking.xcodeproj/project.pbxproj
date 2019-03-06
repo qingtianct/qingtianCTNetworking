@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		064982DFD9CC0E103329D974 /* qingtianCTNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = qingtianCTNetworking.podspec; path = ../qingtianCTNetworking.podspec; sourceTree = "<group>"; };
-		4E65ACCDC22CA8B839342206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		064982DFD9CC0E103329D974 /* qingtianCTNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = qingtianCTNetworking.podspec; path = ../qingtianCTNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E65ACCDC22CA8B839342206 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +27,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		827FEC7E4083B098EA9C25A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		827FEC7E4083B098EA9C25A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C81BC2109E79BB545461A84E /* Pods_qingtianCTNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qingtianCTNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1232E68B015667DC4BA3759 /* Pods-qingtianCTNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qingtianCTNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-qingtianCTNetworking_Tests/Pods-qingtianCTNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF1CE0811B4E93D8AB63CABA /* Pods-qingtianCTNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qingtianCTNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-qingtianCTNetworking_Tests/Pods-qingtianCTNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +54,6 @@
 				F1232E68B015667DC4BA3759 /* Pods-qingtianCTNetworking_Tests.debug.xcconfig */,
 				FF1CE0811B4E93D8AB63CABA /* Pods-qingtianCTNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

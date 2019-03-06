@@ -1,0 +1,22 @@
+{
+  "name": "qingtianCTNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of qingtianCTNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1295890900@qq.com/qingtianCTNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1295890900@qq.com": "1295890900@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1295890900@qq.com/qingtianCTNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "qingtianCTNetworking/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - qingtianCTNetworking (0.1.0)
+
+DEPENDENCIES:
+  - qingtianCTNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  qingtianCTNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  qingtianCTNetworking: 1caae9a4002c06b603f868b80bc98b3456937d9a
+
+PODFILE CHECKSUM: fac7cc6a4e89e8e2cbca43ff6faab02eac9ab2b2
+
+COCOAPODS: 1.6.0.beta.2

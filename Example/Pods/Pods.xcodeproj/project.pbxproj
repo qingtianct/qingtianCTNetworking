@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CAAA807D8FDAD5437ACCBCEE2C2747 /* qingtianCTNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057A2449D33DAE00920CE01A1D077DF2 /* qingtianCTNetworking-dummy.m */; };
+		23E434B73439BCA4EA406183703964C6 /* Pods-qingtianCTNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA3E2D07AD5E8B09E1273D08FBA6AC9 /* Pods-qingtianCTNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4205C0ACAC52B5A7934241D81A279A48 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 860EDB47108118C1C9D76E8815DBC3EA /* ReplaceMe.m */; };
+		598AEE9F7F9E7FDBA4DFF09F1D0BC561 /* Pods-qingtianCTNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BD782AD3CBAE274CA78127B66A40B /* Pods-qingtianCTNetworking_Tests-dummy.m */; };
+		BEBFE5BC60B79183772F228BC876AE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C709EB9CA42FF4B1BBB1851150BB7555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D9C204E9EC5558BA646CB4F008052771 /* qingtianCTNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB034D55862FCBEDB802126712968473 /* qingtianCTNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FBDBBF16F19E914C37F7876AA0AF5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3C6E3E642A74987BA1E450B3089870;
+			remoteInfo = qingtianCTNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047BB2246A8DB33C04B38F7EF5203A9E /* Pods_qingtianCTNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_qingtianCTNetworking_Tests.framework; path = "Pods-qingtianCTNetworking_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057A2449D33DAE00920CE01A1D077DF2 /* qingtianCTNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qingtianCTNetworking-dummy.m"; sourceTree = "<group>"; };
+		0588E4AE0AE53A2E9D52EDD77C2B2DB8 /* Pods-qingtianCTNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qingtianCTNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
+		335555FB54E106B10BFBF353D3A6C8C9 /* Pods-qingtianCTNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qingtianCTNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40B6C3C44095402B0DFD39F9791D0C9B /* qingtianCTNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qingtianCTNetworking.xcconfig; sourceTree = "<group>"; };
+		44BDE68D0720BC7044B600AB74D57E63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48B96914D12ADDB9048ACAF82CE5BFB5 /* Pods-qingtianCTNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qingtianCTNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0BD782AD3CBAE274CA78127B66A40B /* Pods-qingtianCTNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qingtianCTNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
+		6766B5318EB6125FA56DC06EC356C8C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		69EBC98AABCCABF2B4D3DF472807ACAF /* Pods-qingtianCTNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qingtianCTNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DC0866615C07652FF894958148310A4 /* qingtianCTNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = qingtianCTNetworking.framework; path = qingtianCTNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		705AA5A5AF0A7D29F6C2762F30FA4EE8 /* Pods-qingtianCTNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qingtianCTNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		860EDB47108118C1C9D76E8815DBC3EA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = qingtianCTNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		8B52FC5EE7A0473AFF8329171DE862B2 /* qingtianCTNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = qingtianCTNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		913EA35531498F12B3785AB24EBC1D9E /* qingtianCTNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qingtianCTNetworking-prefix.pch"; sourceTree = "<group>"; };
+		A4DE45308A6C6CF5421EE69B431D6FE5 /* qingtianCTNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "qingtianCTNetworking-Info.plist"; sourceTree = "<group>"; };
+		AB034D55862FCBEDB802126712968473 /* qingtianCTNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qingtianCTNetworking-umbrella.h"; sourceTree = "<group>"; };
+		B2D03C54C2202076AD7B7E9EBB6F4132 /* Pods-qingtianCTNetworking_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qingtianCTNetworking_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9436AD0FD9E43CA6F390A80D9305F24 /* Pods-qingtianCTNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qingtianCTNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C84F3D07526173FCC9C7858874DBCAB6 /* qingtianCTNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = qingtianCTNetworking.modulemap; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EDA3E2D07AD5E8B09E1273D08FBA6AC9 /* Pods-qingtianCTNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qingtianCTNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB0869C44CB6C1897E3F94C04E09765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C709EB9CA42FF4B1BBB1851150BB7555 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9266E4FC66113904412558409031063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBFE5BC60B79183772F228BC876AE3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096C4586AA79EFBD9FF06DF5BFFF9A41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6766B5318EB6125FA56DC06EC356C8C1 /* LICENSE */,
+				8B52FC5EE7A0473AFF8329171DE862B2 /* qingtianCTNetworking.podspec */,
+				44BDE68D0720BC7044B600AB74D57E63 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		264D147258134D404419A90A7130ED66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84F3D07526173FCC9C7858874DBCAB6 /* qingtianCTNetworking.modulemap */,
+				40B6C3C44095402B0DFD39F9791D0C9B /* qingtianCTNetworking.xcconfig */,
+				057A2449D33DAE00920CE01A1D077DF2 /* qingtianCTNetworking-dummy.m */,
+				A4DE45308A6C6CF5421EE69B431D6FE5 /* qingtianCTNetworking-Info.plist */,
+				913EA35531498F12B3785AB24EBC1D9E /* qingtianCTNetworking-prefix.pch */,
+				AB034D55862FCBEDB802126712968473 /* qingtianCTNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/qingtianCTNetworking";
+			sourceTree = "<group>";
+		};
+		29BDE336B6358FF9315FD3ED211FEEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047BB2246A8DB33C04B38F7EF5203A9E /* Pods_qingtianCTNetworking_Tests.framework */,
+				6DC0866615C07652FF894958148310A4 /* qingtianCTNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383394071F12CC43E642001A604D5346 /* qingtianCTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				860EDB47108118C1C9D76E8815DBC3EA /* ReplaceMe.m */,
+				096C4586AA79EFBD9FF06DF5BFFF9A41 /* Pod */,
+				264D147258134D404419A90A7130ED66 /* Support Files */,
+			);
+			name = qingtianCTNetworking;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A875807743A35423D9D421134E763B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EA61CC8CAD9D6EB5890F8E4C8CEC369 /* Pods-qingtianCTNetworking_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6EA61CC8CAD9D6EB5890F8E4C8CEC369 /* Pods-qingtianCTNetworking_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				705AA5A5AF0A7D29F6C2762F30FA4EE8 /* Pods-qingtianCTNetworking_Tests.modulemap */,
+				B9436AD0FD9E43CA6F390A80D9305F24 /* Pods-qingtianCTNetworking_Tests-acknowledgements.markdown */,
+				69EBC98AABCCABF2B4D3DF472807ACAF /* Pods-qingtianCTNetworking_Tests-acknowledgements.plist */,
+				5E0BD782AD3CBAE274CA78127B66A40B /* Pods-qingtianCTNetworking_Tests-dummy.m */,
+				B2D03C54C2202076AD7B7E9EBB6F4132 /* Pods-qingtianCTNetworking_Tests-frameworks.sh */,
+				0588E4AE0AE53A2E9D52EDD77C2B2DB8 /* Pods-qingtianCTNetworking_Tests-Info.plist */,
+				EDA3E2D07AD5E8B09E1273D08FBA6AC9 /* Pods-qingtianCTNetworking_Tests-umbrella.h */,
+				48B96914D12ADDB9048ACAF82CE5BFB5 /* Pods-qingtianCTNetworking_Tests.debug.xcconfig */,
+				335555FB54E106B10BFBF353D3A6C8C9 /* Pods-qingtianCTNetworking_Tests.release.xcconfig */,
+			);
+			name = "Pods-qingtianCTNetworking_Tests";
+			path = "Target Support Files/Pods-qingtianCTNetworking_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				DC549F1963F5D9C354FE59A074E964E8 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				29BDE336B6358FF9315FD3ED211FEEEF /* Products */,
+				5A875807743A35423D9D421134E763B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC549F1963F5D9C354FE59A074E964E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				383394071F12CC43E642001A604D5346 /* qingtianCTNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		849D8B54F0662BC0C71B414745507840 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E434B73439BCA4EA406183703964C6 /* Pods-qingtianCTNetworking_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24D9BD8DA545E6321102189972149F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C204E9EC5558BA646CB4F008052771 /* qingtianCTNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		788266439204D4431D009F5EFDF089F2 /* Pods-qingtianCTNetworking_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23BC258842CDDBC852896BEBAE9E478 /* Build configuration list for PBXNativeTarget "Pods-qingtianCTNetworking_Tests" */;
+			buildPhases = (
+				849D8B54F0662BC0C71B414745507840 /* Headers */,
+				08B5D2984078311DA0CD9B82FF6D073F /* Sources */,
+				C9266E4FC66113904412558409031063 /* Frameworks */,
+				C3CA7BCB8836100D34EF871A9CD4C53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83557E1192CE5B6A0E63BDC80EF9DC11 /* PBXTargetDependency */,
+			);
+			name = "Pods-qingtianCTNetworking_Tests";
+			productName = "Pods-qingtianCTNetworking_Tests";
+			productReference = 047BB2246A8DB33C04B38F7EF5203A9E /* Pods_qingtianCTNetworking_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC3C6E3E642A74987BA1E450B3089870 /* qingtianCTNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCF98ADD41E6F671428067A2C7E9E3A /* Build configuration list for PBXNativeTarget "qingtianCTNetworking" */;
+			buildPhases = (
+				D24D9BD8DA545E6321102189972149F3 /* Headers */,
+				1046E53D9F6692141CF3543C70EC6E23 /* Sources */,
+				4CB0869C44CB6C1897E3F94C04E09765 /* Frameworks */,
+				07D4837885A74638CA369B3F20FEB9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qingtianCTNetworking;
+			productName = qingtianCTNetworking;
+			productReference = 6DC0866615C07652FF894958148310A4 /* qingtianCTNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29BDE336B6358FF9315FD3ED211FEEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788266439204D4431D009F5EFDF089F2 /* Pods-qingtianCTNetworking_Tests */,
+				DC3C6E3E642A74987BA1E450B3089870 /* qingtianCTNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D4837885A74638CA369B3F20FEB9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3CA7BCB8836100D34EF871A9CD4C53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B5D2984078311DA0CD9B82FF6D073F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598AEE9F7F9E7FDBA4DFF09F1D0BC561 /* Pods-qingtianCTNetworking_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1046E53D9F6692141CF3543C70EC6E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CAAA807D8FDAD5437ACCBCEE2C2747 /* qingtianCTNetworking-dummy.m in Sources */,
+				4205C0ACAC52B5A7934241D81A279A48 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83557E1192CE5B6A0E63BDC80EF9DC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = qingtianCTNetworking;
+			target = DC3C6E3E642A74987BA1E450B3089870 /* qingtianCTNetworking */;
+			targetProxy = 1FBDBBF16F19E914C37F7876AA0AF5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A5494942F3C9779F46253FB70F933BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B6C3C44095402B0DFD39F9791D0C9B /* qingtianCTNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qingtianCTNetworking/qingtianCTNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qingtianCTNetworking/qingtianCTNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qingtianCTNetworking/qingtianCTNetworking.modulemap";
+				PRODUCT_MODULE_NAME = qingtianCTNetworking;
+				PRODUCT_NAME = qingtianCTNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		89FE31113155AF8DAD1147B170DCE191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B6C3C44095402B0DFD39F9791D0C9B /* qingtianCTNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qingtianCTNetworking/qingtianCTNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qingtianCTNetworking/qingtianCTNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qingtianCTNetworking/qingtianCTNetworking.modulemap";
+				PRODUCT_MODULE_NAME = qingtianCTNetworking;
+				PRODUCT_NAME = qingtianCTNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C61DD70E9740DFD5C1204B1D314FB767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335555FB54E106B10BFBF353D3A6C8C9 /* Pods-qingtianCTNetworking_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qingtianCTNetworking_Tests/Pods-qingtianCTNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qingtianCTNetworking_Tests/Pods-qingtianCTNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1545F51B5217FB52FE6061954E8F168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B96914D12ADDB9048ACAF82CE5BFB5 /* Pods-qingtianCTNetworking_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qingtianCTNetworking_Tests/Pods-qingtianCTNetworking_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qingtianCTNetworking_Tests/Pods-qingtianCTNetworking_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCF98ADD41E6F671428067A2C7E9E3A /* Build configuration list for PBXNativeTarget "qingtianCTNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FE31113155AF8DAD1147B170DCE191 /* Debug */,
+				0A5494942F3C9779F46253FB70F933BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23BC258842CDDBC852896BEBAE9E478 /* Build configuration list for PBXNativeTarget "Pods-qingtianCTNetworking_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1545F51B5217FB52FE6061954E8F168 /* Debug */,
+				C61DD70E9740DFD5C1204B1D314FB767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

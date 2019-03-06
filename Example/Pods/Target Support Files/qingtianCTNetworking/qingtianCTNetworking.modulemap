@@ -1,0 +1,6 @@
+framework module qingtianCTNetworking {
+  umbrella header "qingtianCTNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
